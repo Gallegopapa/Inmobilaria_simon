@@ -91,7 +91,7 @@ a{
 }
 .botones {
   display: flex;
-  justify-content: center; /* Centrados horizontalmente */
+  justify-content: center;
   gap: 1rem;
   margin-top: 1rem;
 }
@@ -115,4 +115,11 @@ a{
 }
 h2{
   color: black;
+}
+
+.volver-lista-agregar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
 }
