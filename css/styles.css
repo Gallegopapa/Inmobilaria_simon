@@ -1,6 +1,6 @@
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   background: #f0f2f5;
@@ -45,7 +45,7 @@ main {
 }
 .propiedad h2, .propiedad-admin h2 {
   margin-top: 1rem;
-  color: #003366;
+  color: black;
 }
 .propiedad a, .propiedad-admin a, .propiedad-admin button {
   display: inline-block;
@@ -77,7 +77,42 @@ input, textarea, button {
 }
 button {
   background: #003366;
-  color: white;
+  color: white ;
   border: none;
   cursor: pointer;
+}
+img{
+  height: 15rem;
+  width: 20rem;
+}
+a{
+  color: #f0f2f5;
+  text-decoration: none;
+}
+.botones {
+  display: flex;
+  justify-content: center; /* Centrados horizontalmente */
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.botones button,
+.botones .boton-volver {
+  padding: 0.75rem 1.5rem;
+  background: #003366;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.botones .boton-volver:hover,
+.botones button:hover {
+  background: #002244;
+}
+h2{
+  color: black;
 }
