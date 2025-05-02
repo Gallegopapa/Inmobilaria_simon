@@ -1,5 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-    console.log("El script de validación está funcionando");
   
     const formulario = document.querySelector("form");
     
@@ -15,11 +13,5 @@ document.addEventListener("DOMContentLoaded", function () {
           campo.classList.remove("error");
         }
       });
-  
-      if (!formularioValido) {
-        e.preventDefault();
-        alert("Por favor completa todos los campos antes de guardar.");
-      }
-    });
   });
   
