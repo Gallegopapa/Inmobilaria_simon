@@ -13,5 +13,10 @@
           campo.classList.remove("error");
         }
       });
-  });
+  
+      if (!formularioValido) {
+        e.preventDefault();
+        alert("Por favor completa todos los campos antes de guardar.");
+      }
+    });
   
